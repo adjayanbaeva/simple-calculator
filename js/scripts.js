@@ -12,6 +12,12 @@ var subtract = function(number1, number2){
   return number1+number2;
 }
 
+//Multiplication 
+var multiply = function(number1, number2){
+  return number1*number2;
+}
+
 alert(add(number1, number2));
 alert(subtract(number1,number2));
+alert(multiply(number1, number2));
 
